@@ -42,7 +42,7 @@ def hit?(current_total)
   
   if input == 'h'
     #current_total += deal_card
-    display_card_total
+    return display_card_total
   #elsif input == 's'
   #  display_card_total
   #else
